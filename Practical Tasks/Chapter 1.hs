@@ -32,4 +32,15 @@ doubleThenIncrement = increment . double
 main :: IO ()
 main = do
  print $ doubleThenIncrement 5
+
+
+
+HL1T2
+
+circleArea :: Float -> Float
+circleArea r = pi * r * r
+
+main :: IO ()
+main = do 
+ print (circleArea 5)
  
