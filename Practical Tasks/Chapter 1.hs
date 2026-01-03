@@ -55,4 +55,16 @@ main = do
  print $ greaterThan18 20
 
 
+HL1T5
+
+infiniteNumbers :: Int -> [Int] 
+infiniteNumbers n = take n [1..]
+
+main :: IO ()
+main = do
+ print $ infiniteNumbers 10
+ 
+ 
+
+
  
