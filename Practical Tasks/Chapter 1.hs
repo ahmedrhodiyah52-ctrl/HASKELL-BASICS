@@ -43,4 +43,16 @@ circleArea r = pi * r * r
 main :: IO ()
 main = do 
  print (circleArea 5)
+
+
+HL1T3
+
+greaterThan18 :: Int -> Bool
+greaterThan18 x = x >= 18
+
+main :: IO ()
+main = do
+ print $ greaterThan18 20
+
+
  
