@@ -85,4 +85,15 @@ main = do
  print $ fToC 5
 
 
+HL1T8
+
+applyTwice :: (Float -> Float) -> Float -> Float
+applyTwice f x = f (f x)
+main :: IO ()
+main = do
+
+  print $ applyTwice (+1) 5
+  
+
+
  
