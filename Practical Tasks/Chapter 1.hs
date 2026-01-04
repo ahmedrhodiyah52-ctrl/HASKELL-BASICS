@@ -75,5 +75,14 @@ main = do
  
  
 
+HL1T7
+
+fToC :: Float -> Float
+fToC f = (f - 32) * 5 / 9
+
+main :: IO ()
+main = do
+ print $ fToC 5
+
 
  
