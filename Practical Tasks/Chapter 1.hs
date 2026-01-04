@@ -63,6 +63,15 @@ infiniteNumbers n = take n [1..]
 main :: IO ()
 main = do
  print $ infiniteNumbers 10
+
+HL1T6
+
+addNumbers :: Int -> Int -> Int
+addNumbers x y = x + y
+
+main :: IO ()
+main = do
+ print $ addNumbers 2 4
  
  
 
